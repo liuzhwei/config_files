@@ -1,0 +1,29 @@
+map <tab> :bn<cr>
+
+""""""""""""""""""""""""""""""
+""           dictionary
+""""""""""""""""""""""""""""""
+" i_CTRL_X_K 
+set dictionary+=~/.vim/dict/simple
+set dictionary-=/usr/share/dict/words dictionary+=/usr/share/dict/words
+"""""""""""""""""""""""""""""
+"  jj as Esc
+"""""""""""""""""""""""""""""""
+imap jj <esc>
+imap JJ <esc>
+
+""""""""""""""""""""""""""""'''
+" set
+"""""""""""""""""""""""""""""""
+set ai
+set ts=4 
+"""""""""""""""""""""""""""""
+" Taglist
+"""""""""""""""""""""""""""""
+map ,t :Tlist<CR>
+
+"""""""""""""""""""""""""""""
+" NERDTree
+"""""""""""""""""""""""""""""
+map ,n :NERDTreeToggle<CR>
+""""""""""""""""""""""""""""
